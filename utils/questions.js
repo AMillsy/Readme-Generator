@@ -41,6 +41,7 @@ const questions = [
       "BSD 3-Clause",
       "Boost software License",
       "Creative Commons Zero",
+      "None",
     ],
   },
   {
