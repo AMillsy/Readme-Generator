@@ -14,7 +14,23 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
+
 `;
 }
 
 module.exports = generateMarkdown;
+
+/**
+ * ADD LINCENSE BADGE:
+ *
+ * THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
+ *
+ * GITHUB USERNAME:
+ * LINKS TO PROFILE
+ * THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
+ *
+ * EMAIL:
+ * THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
+ *
+ * MAKE A TABLE OF CONTENTS, THAT LINKS TO EACH PART OF THE README
+ */

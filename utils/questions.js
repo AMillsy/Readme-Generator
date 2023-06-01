@@ -1,43 +1,57 @@
 const questions = [
   {
     type: "input",
-    name: "questionName",
-    message: "Message that the user sees",
+    name: "title",
+    message: "What is the project title?",
   },
   {
     type: "input",
-    name: "questionName",
-    message: "Message that the user sees",
+    name: "desciption",
+    message: "Can you give me a description of the project?",
   },
   {
     type: "input",
-    name: "questionName",
-    message: "Message that the user sees",
+    name: "install",
+    message: "How do you install the project?",
   },
   {
     type: "input",
-    name: "questionName",
-    message: "Message that the user sees",
+    name: "usage",
+    message: "What is the usage of this project?",
   },
   {
     type: "input",
-    name: "questionName",
-    message: "Message that the user sees",
+    name: "contribute",
+    message: "What is the contributing gidelines for this project?",
   },
   {
     type: "input",
-    name: "questionName",
-    message: "Message that the user sees",
+    name: "test",
+    message: "How do you test this project?",
+  },
+  {
+    type: "list",
+    name: "license",
+    message: "What license would you like for this project?",
+    choices: [
+      "Apache 2.0",
+      "GNU 3.0",
+      "MIT",
+      "BSD 2-Clause",
+      "BSD 3-Clause",
+      "Boost software License",
+      "Creative Commons Zero",
+    ],
   },
   {
     type: "input",
-    name: "questionName",
-    message: "Message that the user sees",
+    name: "gitUsername",
+    message: "What is your github Username?",
   },
   {
     type: "input",
-    name: "questionName",
-    message: "Message that the user sees",
+    name: "gitEmail",
+    message: "What is your email?",
   },
 ];
 
