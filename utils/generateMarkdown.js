@@ -12,7 +12,11 @@ function generateMarkdown(data) {
   ## Table of Contents
 
   - [Installation](#installation)
-
+  - [Usage](#Usage)
+  - [How to Contribute](#How-to-Contribute)
+  - [Test](#Test)
+  - [License](#License)
+  - [Questions](#Questions)
 
   ## Installation
 
@@ -36,9 +40,10 @@ function generateMarkdown(data) {
 
   The license that is being used in this project is [${data.license}](${licenseData.link})
   
-  ## Credits
+  ## Questions
 
-  [${data.gitUsername}](https://github.com/${data.gitUsername})
+  **[${data.gitUsername}](https://github.com/${data.gitUsername})
+  If you have any questions about this project email me @ [${data.gitEmail}](${data.gitEmail})
 
 `;
 }

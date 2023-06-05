@@ -1,37 +1,42 @@
-# a
+# Readme Generator
 
-  ## Description [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  ## Description [![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
 
-  a
+  Creates a professional readme that gives a template for people to use 
 
   ## Table of Contents
 
   - [Installation](#installation)
-
+  - [Usage](#Usage)
+  - [How to Contribute](#How to Contribute)
+  - [Test](#Test)
+  - [License](#License)
+  - [Questions](#Questions)
 
   ## Installation
 
   Clone the project and then in the terminal do:
 
-  a
+  node install
   
   ## Usage
 
-  a
+  To create a readme 
 
   ## How to Contribute
 
-  a
+  Use git fork to contribute to the project and then pull request to the this project
 
   ## Test
 
-  a
+  node index.js
 
   ## License
 
-  The license that is being used in this project is [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/)
+  The license that is being used in this project is [BSD 2-Clause](https://opensource.org/license/bsd-2-clause/)
   
-  ## Credits
+  ## Questions
 
-  [AMillsy](https://github.com/AMillsy)
+  **[AMillsy](https://github.com/AMillsy)
+  If you have any questions about this project email me @ [00adammills00@gmail.com](00adammills00@gmail.com)
 
