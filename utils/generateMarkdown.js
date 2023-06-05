@@ -1,11 +1,5 @@
 const lincenseFinder = require(`./Lincenses`);
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {
-  if (license.name === "None") return "";
-}
-
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   const licenseData = lincenseFinder(data.license);
@@ -24,8 +18,7 @@ function generateMarkdown(data) {
 
   Clone the project and then in the terminal do:
 
- 
-    ${data.install}
+  ${data.install}
   
   ## Usage
 
@@ -41,8 +34,11 @@ function generateMarkdown(data) {
 
   ## License
 
-  The license that is being used in this project is ${data.license}
- 
+  The license that is being used in this project is [${data.license}](${licenseData.link})
+  
+  ## Credits
+
+  [${data.gitUsername}](https://github.com/${data.gitUsername})
 
 `;
 }
