@@ -1,9 +1,12 @@
+const lincenseFinder = require(`./Lincenses`);
+
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
-if (license === "None") return "";
+function renderLicenseBadge(license) {
+  if (license === "None") return "";
 
-return `[![License](https://img.shields.io/badge/${license}-blue.svg)](https://opensource.org/licenses/${license})`;
+  return `[![License](https://img.shields.io/badge/${license}-blue.svg)](https://opensource.org/licenses/${license})`;
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -19,6 +22,9 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  console.log(data.license);
+  const licenseData = lincenseFinder(data.license);
+  console.log(licenseData);
   return `# ${data.title}
 
   ## Description
@@ -34,9 +40,9 @@ function generateMarkdown(data) {
 
   Clone the project and then in the terminal do:
 
-  ``bash
+ 
     ${data.install}
-  `` 
+  
   ## Usage
 
   ${data.usage}

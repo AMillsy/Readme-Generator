@@ -9,14 +9,16 @@ const fs = require("fs");
 function writeToFile(fileName, data) {
   const markdown = genMarkdown(data);
 
-  fs.writeFile("ReadMe.md", markdown, (err) =>
+  fs.writeFile(fileName, markdown, (err) =>
     err ? console.error(err) : console.log("Success")
   );
 }
 
 // TODO: Create a function to initialize app
 function init() {
-  inquirer.prompt(questions).then((response) => writeToFile(response));
+  inquirer
+    .prompt(questions)
+    .then((response) => writeToFile("ReadMe.md", response));
 }
 
 // Function call to initialize app

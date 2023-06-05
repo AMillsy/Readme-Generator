@@ -1,2 +1,35 @@
-# Readme-Generator
-Readme Generator that a user will be able to use to enter in data and then it will give back a Readme.md
+# 
+
+  ## Description
+
+  undefined
+
+  ## Table of Contents
+
+  - [Installation](#installation)
+
+
+  ## Installation
+
+  Clone the project and then in the terminal do:
+
+ 
+    
+  
+  ## Usage
+
+  
+
+  ## How to Contribute
+
+  
+
+  ## Test
+
+  
+
+  ## License
+
+  The license that is being used in this project is Apache 2.0
+ 
+
