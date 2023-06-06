@@ -1,17 +1,17 @@
 # 
 
-  ## Description [![Apache_2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://choosealicense.com/licenses/Apache-2.0/)
+  ## Description [![Boost_1.0](https://img.shields.io/badge/License-Boost_1.0-blue.svg)](https://www.boost.org/users/license.html)
 
   
 
   ## Table of Contents
 
   - [Installation](#installation)
-  - [Usage](#Usage)
-  - [How to Contribute](#How-to-Contribute)
-  - [Test](#Test)
-  - [License](#License)
-  - [Questions](#Questions)
+  - [Usage](#usage)
+  - [How to Contribute](#how-to-contribute)
+  - [Test](#test)
+  - [License](#license)
+  - [Questions](#questions)
 
   ## Installation
 
@@ -33,10 +33,11 @@
 
   ## License
 
-  The license that is being used in this project is [Apache_2.0](https://choosealicense.com/licenses/Apache-2.0/)
+  The license that is being used in this project is [Boost software License](https://www.boost.org/users/license.html)
   
   ## Questions
 
-  **[](https://github.com/)
+  [](https://github.com/)
+  
   If you have any questions about this project email me @ []()
 

@@ -21,11 +21,11 @@ function generateMarkdown(data) {
   ## Table of Contents
 
   - [Installation](#installation)
-  - [Usage](#Usage)
-  - [How to Contribute](#How-to-Contribute)
-  - [Test](#Test)
-  - [License](#License)
-  - [Questions](#Questions)
+  - [Usage](#usage)
+  - [How to Contribute](#how-to-contribute)
+  - [Test](#test)
+  - [License](#license)
+  - [Questions](#questions)
 
   ## Installation
 
@@ -53,7 +53,8 @@ function generateMarkdown(data) {
   
   ## Questions
 
-  **[${data.gitUsername}](https://github.com/${data.gitUsername})
+  [${data.gitUsername}](https://github.com/${data.gitUsername})
+  
   If you have any questions about this project email me @ [${data.gitEmail}](${
     data.gitEmail
   })

@@ -29,11 +29,6 @@ const licenses = [
     badge: "Boost_1.0",
     link: "https://www.boost.org/users/license.html",
   },
-  {
-    name: "Creative Commons Zero",
-    badge: "CC0-1.0",
-    link: "https://creativecommons.org/publicdomain/zero/1.0/",
-  },
 ];
 
 function findLincense(license) {
