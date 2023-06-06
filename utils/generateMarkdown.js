@@ -1,11 +1,20 @@
 const lincenseFinder = require(`./Lincenses`);
 
+function generateBadge(license) {
+  const badge = lincenseFinder.getBadge(license);
+  return `[![${badge}](https://img.shields.io/badge/License-${badge}-blue.svg)]`;
+}
+
+function generateLink(license) {
+  const link = lincenseFinder.getLink(license);
+  return `${link}`;
+}
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  const licenseData = lincenseFinder(data.license);
   return `# ${data.title}
 
-  ## Description ${licenseData.badge}
+  ## Description ${generateBadge(data.license)}(${generateLink(data.license)})
 
   ${data.description}
 
@@ -38,12 +47,16 @@ function generateMarkdown(data) {
 
   ## License
 
-  The license that is being used in this project is [${data.license}](${licenseData.link})
+  The license that is being used in this project is [${
+    data.license
+  }](${generateLink(data.license)})
   
   ## Questions
 
   **[${data.gitUsername}](https://github.com/${data.gitUsername})
-  If you have any questions about this project email me @ [${data.gitEmail}](${data.gitEmail})
+  If you have any questions about this project email me @ [${data.gitEmail}](${
+    data.gitEmail
+  })
 
 `;
 }
