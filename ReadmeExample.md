@@ -1,8 +1,8 @@
-# 
+# README Generator
 
-  ## Description [![Boost_1.0](https://img.shields.io/badge/License-Boost_1.0-blue.svg)](https://www.boost.org/users/license.html)
+  ## Description [![GPLv3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://choosealicense.com/licenses/gpl-3.0/)
 
-  
+  It will generate a Readme with user inputs
 
   ## Table of Contents
 
@@ -17,27 +17,27 @@
 
   Clone the project and then in the terminal do:
 
-  
+  npm i
   
   ## Usage
 
-  
+  A user is able to put inputs about there Project with the given questions with the use of Inquirer
 
   ## How to Contribute
 
-  
+  Use git fork to start contributing
 
   ## Test
 
-  
+  node index.js
 
   ## License
 
-  The license that is being used in this project is [Boost software License](https://www.boost.org/users/license.html)
+  The license that is being used in this project is [GNU 3.0](https://choosealicense.com/licenses/gpl-3.0/)
   
   ## Questions
 
-  [](https://github.com/)
+  [AMillsy](https://github.com/AMillsy)
   
-  If you have any questions about this project email me @ []()
+  If you have any questions about this project email me [JohnDoe@gmail.com](JohnDoe@gmail.com)
 

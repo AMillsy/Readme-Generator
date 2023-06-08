@@ -32,7 +32,7 @@ function generateMarkdown(data) {
   Clone the project and then in the terminal do:
 
   ${data.install}
-  
+
   ## Usage
 
   ${data.usage}
@@ -55,7 +55,7 @@ function generateMarkdown(data) {
 
   [${data.gitUsername}](https://github.com/${data.gitUsername})
   
-  If you have any questions about this project email me @ [${data.gitEmail}](${
+  If you have any questions about this project email me [${data.gitEmail}](${
     data.gitEmail
   })
 
@@ -63,18 +63,3 @@ function generateMarkdown(data) {
 }
 
 module.exports = generateMarkdown;
-
-/**
- * ADD LINCENSE BADGE:
- *
- * THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
- *
- * GITHUB USERNAME:
- * LINKS TO PROFILE
- * THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
- *
- * EMAIL:
- * THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
- *
- * MAKE A TABLE OF CONTENTS, THAT LINKS TO EACH PART OF THE README
- */
