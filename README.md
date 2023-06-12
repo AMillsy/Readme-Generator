@@ -2,6 +2,7 @@
 
 ## Table of Content
 
+- [Walkthrough Video](#walkthrough-video)
 - [User Story & Acceptence Criteria](#user-story)
 - [What I have learnt](#what-i-have-learnt)
 - [Installation](#installation)
@@ -10,7 +11,7 @@
 
 ## Walkthrough Video
 
-[Walkthrough]()
+[Walkthrough](https://youtu.be/U5hxTHKHAcU)
 
 ## User Story
 
