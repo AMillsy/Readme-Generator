@@ -1,8 +1,8 @@
-# README Generator
+# Readme Generator
 
   ## Description [![GPLv3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://choosealicense.com/licenses/gpl-3.0/)
 
-  It will generate a Readme with user inputs
+  Generations readme with prompts
 
   ## Table of Contents
 
@@ -17,15 +17,15 @@
 
   Clone the project and then in the terminal do:
 
-  npm i
-  
+  npm i 
+
   ## Usage
 
-  A user is able to put inputs about there Project with the given questions with the use of Inquirer
+  To be able to quickly make readmes 
 
   ## How to Contribute
 
-  Use git fork to start contributing
+  git fork 
 
   ## Test
 
@@ -39,5 +39,5 @@
 
   [AMillsy](https://github.com/AMillsy)
   
-  If you have any questions about this project email me [JohnDoe@gmail.com](JohnDoe@gmail.com)
+  If you have any questions about this project email me [Johndoe@gmail.com](Johndoe@gmail.com)
 
